@@ -14,7 +14,7 @@
 - Correlation Analysis: Investigate the relationship between air pollution levels and respiratory disease rates.
 - Comparative Analysis: Compare air quality, economic indicators, and health outcomes across different cities or regions.
 - Predictive Modeling: Use economic indicators to predict future air quality trends.
-- Geospatial Analysis: Create maps showing the distribution of air quality, economic activity, and health outcomes across different areas.
+
 
 ## Visualizations
 - Line graphs showing trends in air quality, economic indicators, and health outcomes over time.
