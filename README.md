@@ -1,5 +1,10 @@
 # python_project_1
 
+## DataSet
+States: NY, WA, NM
+Timeframe: 2015 ~ 2020
+
+
 ## Research Question
 "How does air quality in major cities correlate with economic indicators and public health outcomes?"
 
@@ -13,17 +18,17 @@
 - Comparative Analysis: Compare air quality, economic indicators, and health outcomes across different cities or regions.
     - Bar charts comparing economic and health indicators across cities with different air quality levels.
 
-### Datasets to Support the Research
-- [AirNowAPI : Air Quality Index](https://docs.airnowapi.org/) The World Air Quality Index project provides real-time air quality data for cities worldwide.
-<!-- https://aqicn.org/api/ -->
+
+### Sources
+- [Bureau of Economic Analysis : State Annual Data:](https://apps.bea.gov/itable/?ReqID=70&step=1&_gl=1*acrtzh*_ga*MjEzMTU4NjQ1NS4xNzMzNzkzMDE5*_ga_J4698JNNFT*MTczMzkyNTM4Mi4xMS4xLjE3MzM5MjY4OTguNjAuMC4w) 
+- [U.S. Environmental Protection Agency : Air Quality Index](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual) 
+Harris
+Sophak
 
 - [US Census : Economic Data](https://www.census.gov/data/developers/data-sets.htmle) US Census offers a comprehensive dataset on various economic indicators by country, including GDP, unemployment rates, and industrial production indices.
- <!-- (https://www.census.gov/quickfacts/) -->
- <!-- https://www.census.gov/data/developers/data-sets.html -->
- <!-- https://www.census.gov/data/developers/data-sets/acs-1year.html -->
+<!-- https://www.census.gov/quickfacts/ -->
+Daniel
+Mark
 
-- [World Health Organization : Public Health Data](https://data.who.int/countries/840)Public Health Data: The World Health Organization provides datasets on various health indicators, including respiratory disease prevalence and mortality rates.
-<!-- https://www.who.int/data/gho/info/athena-api -->
-
-
-- [Bureau of Economic Analysis : City-specific Data:](https://www.bea.gov/resources/for-developers) Many cities publish their own open data portals with detailed local information on air quality, economic factors, and health statistics.
+- [ CDC : Public Health Data](https://data.who.int/countries/840)
+Chris
