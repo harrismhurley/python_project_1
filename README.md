@@ -1,5 +1,10 @@
 # python_project_1
 
+## DataSet
+States: NY, WA, NM
+Timeframe: 2015 ~ 2020
+
+
 ## Research Question
 "What is the correlation between air quality in major cities and public health outcomes across the US? How do economic indicators factor into these trends?"
 
