@@ -1,47 +1,70 @@
 # python_project_1
 
+## Table of Contents
+* [Research Question](#research-question)
+* [Analyses](#analyses)
+* [Usage](#usage)
+* [Installation](#installation)
+* [Dependencies](#dependencies)
+* [Citations](#citations)
+
+
+
+
 ## Research Question
-"What is the correlation between air quality in major cities and public health outcomes across the US? How do economic indicators factor into these trends?"
+"How do economic growth and air quality metrics interact, and what implications do these interactions have for public health strategies?"
+* Params
+- Locations: NY, WA, NM
+- Timeframe: 2015 - 2020
 
-### Secondary Focuses
-- Investigate how air quality in major cities correlates with respiratory diseases and economic indicators.
-- Explore trends in air quality changes over time across different states.
 
-### Dataset
-- **States Analyzed**: NY, WA, NM
-- **Timeframe**: 2015–2020
+## Analyses
 
-### Analyses
-1. **Time Series Analysis**:
-   - Examine how air quality changes over time in relation to economic growth or decline.
-   - Visualize trends using line graphs showing air quality, economic indicators, and health outcomes over time.
+### Analysis #1
+Comparative State Analysis: Recent Economic Performance vs. Air Quality
+- This establishes a baseline understanding of how the latest economic indicators relate to air quality metrics in our chosen states. providing a snapshot of whether states with stronger economies maintain better or worse air quality. 
 
-2. **Correlation Analysis**:
-   - Investigate the relationship between air pollution levels and respiratory disease rates.
-   - Use scatter plots to demonstrate correlations between air pollution levels and economic/health variables.
+Conclusion:
+- These findings imply that effective environmental policies,geographical factors, and the nature of economic activitiesplay crucial roles in determining air quality alongside economic performance. Further research into specific industries, population density, and environmental regulations would provide more comprehensive insights into these relationships.
+- The analysis challenges the common assumption that higher economic activity leads to poorer air quality, as demonstrated by New York's superior performance in both economic metrics and good air quality days (306 days) compared to the smaller economies of Washington (280 days) and New Mexico (213 days).
+![Analysis 1, Economic Performance and Air Quality Indicators ](./graphs/analysis_1.png)
 
-3. **Comparative Analysis**:
-   - Compare air quality, economic indicators, and health outcomes across different cities or regions.
-   - Use bar charts and overlapping visualizations to highlight differences and trends.
+### Analysis #2
+Time Series Analysis: GDP vs. AQI for New York State & Washington
+- This analysis examines the relationship between economic growth (measured by GDP) and air quality (measured by Max AQI) in New York State and Washington from 2015 to 2020. 
+- It aims to reveal potential correlations or divergences between economic performance and environmental quality over time in both states given that Washington had the most 'Very Unhealthy Days'.
 
-4. **Descriptive Analysis**:
-   - Summarize data to highlight trends in air quality and population counts for the years analyzed.
-   - Include visualizations for gender-based health outcomes (e.g., male, female, combined).
+Conclusion:
+- From 2015 to 2020, New York's GDP grew from approximately $1.5 trillion to $1.77 trillion, reflecting consistent economic expansion despite a slight dip in 2020 due to the pandemic, while Washington's GDP increased steadily from $467 billion in 2015 to $620 billion in 2020, showcasing robust economic growth.
+- Unlike New York, Washington's GDP and Max AQI trends diverged more noticeably, indicating that economic growth may have coincided with periods of poorer air quality. The differingtrends between New York and Washington highlight the importance of tailored environmental policies and management strategies to balance economic growth with air quality maintenance.
+- These findings underscore the critical need for integrated public health strategies that address the environmental impacts of economic activities, ensuring that economic prosperity does not come at the cost of public health.
+![Analysis 2: New York GDP & AQI Over Time ](./graphs/analysis_2_NY.png)
+![Analysis 2: Washington GDP & AQI Over Time ](./graphs/analysis_2_WA.png)
 
-5. **Predictive Modeling**:
-   - Use economic indicators to predict future air quality trends.
 
-### Visualizations
-- Line graphs showing trends in air quality, economic indicators, and health outcomes over time.
-- Scatter plots demonstrating correlations between air pollution levels and health variables.
-- Bar charts comparing health indicators across cities with different air quality levels.
-- Overlapping visualizations to compare trends across regions.
+### Analysis #3
+blank
+- 
 
-### Datasets to Support the Research
-- [AirNowAPI: Air Quality Index](https://docs.airnowapi.org/): Provides real-time air quality data for cities worldwide.
-- [World Health Organization: Public Health Data](https://data.who.int/countries/840): Offers datasets on various health indicators, including respiratory disease prevalence and mortality rates.
+Conclusion:
+-
 
-### Sources
-- [U.S. Environmental Protection Agency: Air Quality Index](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual): Air quality data by region.
-- [CDC: Public Health Data](https://data.who.int/countries/840): Provides public health datasets focusing on respiratory diseases.
 
+## Usage
+1. 
+2. 
+3. 
+4. 
+
+## Installation
+1. 
+2. 
+3. 
+4. 
+
+## Dependencies
+
+## Citations
+U.S. Bureau of Economic Analysis. (2024). Regional GDP & Personal Income, 2015-2020[Data set]. U.S. Department of Commerce. Available from [BEA.gov/iTable](BEA.gov/iTable)
+
+U.S. Environmental Protection Agency. (2024). Air Quality Index (AQI) by County, 2015-2020 [Data set]. Air Quality System Data Mart. Available from [https://aqs.epa.gov/aqsweb/airdata/download_files.html](https://aqs.epa.gov/aqsweb/airdata/download_files.html)
