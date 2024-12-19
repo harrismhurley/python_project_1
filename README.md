@@ -64,7 +64,6 @@ Conclusion:
 - pandas: 2.2.2
 - matplotlib.pyplot: 3.9.2
 - pathlib: 16.2.0
-- seaborn: 0.13.2
 - altair: 5.0.1 
 - requests: 2.32.3
 - json: 0.9.6
