@@ -1,9 +1,9 @@
 # %%
 import pandas as pd
 import io
-personal_income_df = pd.read_csv('./source/personal_income.csv')
-gdp_df = pd.read_csv('./source/gdp.csv')
-employment_df = pd.read_csv('./source/employment.csv')
+personal_income_df = pd.read_csv('../source/personal_income.csv')
+gdp_df = pd.read_csv('../source/gdp.csv')
+employment_df = pd.read_csv('../source/employment.csv')
 
 
 # %%
@@ -36,8 +36,8 @@ combined_economic_df = pd.concat([personal_income_long, gdp_long, employment_lon
 combined_economic_df = combined_economic_df.reset_index()
 # Sort the DataFrame by State and year
 combined_economic_df = combined_economic_df.sort_values(['State', 'Year'])
-
 # Display the first few rows of the combined DataFrame
 print(combined_economic_df.head())
 # Save the combined economic data to a CSV file
-combined_economic_df.to_csv('./resources/BEA/bea_annual.csv', index=False)
+combined_economic_df.to_csv('BEA_annual.csv')
+# %%
