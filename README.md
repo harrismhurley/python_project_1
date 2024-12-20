@@ -66,10 +66,12 @@ Conclusion:
 - pathlib: 16.2.0
 - altair: 5.0.1 
 - requests: 2.32.3
+- seaborn: 0.13.2
 - json: 0.9.6
 
 ## Citations
 U.S. Bureau of Economic Analysis. (2024). Regional GDP & Personal Income, 2015-2020[Data set]. U.S. Department of Commerce. Available from [BEA.gov/iTable](BEA.gov/iTable)
 
 U.S. Environmental Protection Agency. (2024). Air Quality Index (AQI) by County, 2015-2020 [Data set]. Air Quality System Data Mart. Available from [https://aqs.epa.gov/aqsweb/airdata/download_files.html](https://aqs.epa.gov/aqsweb/airdata/download_files.html)
+
 Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2021 (GBD 2021) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2022.[https://vizhub.healthdata.org/gbd-results/](https://vizhub.healthdata.org/gbd-results/)
